@@ -1,9 +1,14 @@
 package problem02;
 
 public class SmartPhone extends MusicPhone {
-	
 	public String runApp() {
-		Phone phone = new MusicPhone();
+		playMusic();
 		return null;
+	}
+	public String playMusic() {
+		return "스트리밍";
+	}
+	public String call () {
+		return "앱실행";
 	}
 }
